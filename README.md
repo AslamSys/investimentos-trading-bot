@@ -1,5 +1,19 @@
 # 📈 Trading Bot
 
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Investimentos (RPi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/investimentos/README.md)** → **investimentos-trading-bot**
+
+### Containers Relacionados (investimentos)
+- [investimentos-brain](https://github.com/AslamSys/investimentos-brain)
+- [investimentos-technical-analysis](https://github.com/AslamSys/investimentos-technical-analysis)
+- [investimentos-news-sentiment](https://github.com/AslamSys/investimentos-news-sentiment)
+- [investimentos-betting-bot](https://github.com/AslamSys/investimentos-betting-bot)
+- [investimentos-ml-predictor](https://github.com/AslamSys/investimentos-ml-predictor)
+- [investimentos-portfolio-manager](https://github.com/AslamSys/investimentos-portfolio-manager)
+
+---
+
 **Container:** `trading-bot`  
 **Stack:** Python + ccxt (Binance/Bybit)  
 **Estratégias:** Mean Reversion, Momentum, Grid Trading
@@ -125,6 +139,20 @@ async def mean_reversion_strategy(ticker):
         }).encode())
 
 # Run every 5 minutes
+
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Investimentos (RPi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/investimentos/README.md)** → **investimentos-trading-bot**
+
+### Containers Relacionados (investimentos)
+- [investimentos-brain](https://github.com/AslamSys/investimentos-brain)
+- [investimentos-technical-analysis](https://github.com/AslamSys/investimentos-technical-analysis)
+- [investimentos-news-sentiment](https://github.com/AslamSys/investimentos-news-sentiment)
+- [investimentos-betting-bot](https://github.com/AslamSys/investimentos-betting-bot)
+- [investimentos-ml-predictor](https://github.com/AslamSys/investimentos-ml-predictor)
+- [investimentos-portfolio-manager](https://github.com/AslamSys/investimentos-portfolio-manager)
+
+---
 while True:
     await mean_reversion_strategy('BTC/USDT')
     await asyncio.sleep(300)
